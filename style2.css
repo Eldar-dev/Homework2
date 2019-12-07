@@ -1,0 +1,186 @@
+.rem{
+    height: 700px;
+	background-image: url('../images/bottom_background.png');
+}
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+	font-weight: 400;
+	font-size: 41px;
+	color: #ffffff;
+	padding-top: 80px;
+}
+
+h4{
+    text-align: center;
+	color: #999999;
+	font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+form{	background: rgba(45, 57, 80, 0.9);
+    height: 100%;
+    text-align: center;
+}
+
+form input[type=text]{
+    border: 1px solid #999999;
+	border-radius: 3px;
+    background: 0;
+    margin: 50px auto 10px auto;
+    padding-left: 22px;
+	width: 533px;
+	height: 60px;
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+    text-decoration: none
+}
+form input[type=text]::-webkit-input-placeholder{
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+    text-decoration: none
+}
+
+form input[type=text]:focus{
+    outline: none;
+    border: 1px solid #ffffff;
+}
+form input[type=text]:focus::-webkit-input-placeholder{
+    color: #ffffff;}
+
+form input[type=email]{background: 0;
+    margin: 10px auto;
+	width: 533px;
+    height: 60px;
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+	text-decoration: none;
+	border: 1px solid #999999;
+    border-radius: 3px;
+    padding-left: 22px;
+}
+
+form input[type=email]::-webkit-input-placeholder{
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+    text-decoration: none
+}
+
+form input[type=email]:focus{
+    outline: none;
+    border: 1px solid #ffffff;
+}
+form input[type=email]:focus::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+form input[type=message]{background: 0;
+    margin: 10px auto 20px auto;
+	width: 533px;
+    height: 60px;
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+	text-decoration: none;
+	border: 1px solid #999999;
+    border-radius: 3px;
+    padding-left: 22px;
+    padding-bottom: 100px;
+}
+
+form input[type=message]::-webkit-input-placeholder{
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+    text-decoration: none
+    
+}
+
+form input[type=message]:focus{
+    outline: none;
+    border: 1px solid #ffffff;
+}
+form input[type=message]:focus::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+form input[type=checkbox]{
+    width: 15px;
+	height: 15px;
+	background: #99a0a9;
+	border: 1px solid #99a0a9;
+	border-radius: 3px;
+    margin-top: 15px;
+    margin-right: 410px;
+}
+
+form input[type=checkbox]::-webkit-input-placeholder{
+    font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+    text-decoration: none
+    
+}
+form label{
+    font-size: 15px;
+	font-weight: 400;
+    display: inline-block;
+    color: #f5f5f6;
+    position: relative;
+    left: -400px;
+    top: -4px;
+}
+
+form input[type=submit]{
+    background: 0;
+    width: 140px;
+	height: 45px;
+    font-size: 18px;
+	width: 400;
+	color: #ffffff;
+	text-decoration: none;
+	border: 1px solid #15a4fa;
+    border-radius: 3px;
+    position: relative;
+	left: 210px;
+	top: -30px;
+}
+
+form input[type=submit]:hover{
+    background: #15a4fa;
+}
+
+@media(max-width: 425px){
+	form input[type=submit]{
+        left: 110px;
+	    top: -45px;
+    }
+    
+    form input[type=checkbox]{
+        width: 13px;
+        margin-right: 345px;
+    }
+    form input[type=text]{
+        width: 333px;
+    }
+
+    form input[type=email]{
+        width: 333px;
+    }
+
+    form input[type=message]{
+        width: 333px;
+    }
+}
