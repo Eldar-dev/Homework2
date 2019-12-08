@@ -592,6 +592,11 @@ header .logo span{
 		padding-bottom: 40px;
 	}
 
+	.container5 .item_img .hover_cart{
+		height: 240px;
+		top: -193px;
+	}
+
 	.container2 .angle svg{
 		margin-top: 15vh;
 	}
