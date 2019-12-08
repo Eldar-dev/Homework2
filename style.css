@@ -83,7 +83,7 @@ header .logo span{
 .container2{
 	height: calc(100vh - 100px);
 	max-height: 800px;
-	background-image: url('../images/top_background.png');
+	background-image: url('./images/top_background.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -258,14 +258,15 @@ header .logo span{
     width: 100%;
     background: rgba(44, 172, 247, 0.9);
     position: relative;
-    top: -235px;
+    top: -203px;
     /* margin-top: -251px; */
-	margin-top: -16px;
+	margin-top: -48px;
 	text-align: center;
 }
 
 .container5 .hover_cart .cart{
-	padding-top: 110px;
+	position: relative;
+	top: 110px;
 	max-height: 100%;
 }
 .container5 .hover_cart svg{
